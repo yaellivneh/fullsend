@@ -1,16 +1,19 @@
 body {
     margin: 60px auto;
     width: 70%;
+    text-align:center;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    text-align:center;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    text-align:center;
 }
 a {
     text-decoration: none;
@@ -36,6 +39,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    text-align:center;
 }
 
 ul.posts li {
