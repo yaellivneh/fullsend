@@ -1,13 +1,18 @@
 import cgi
 form = cgi.FieldStorage()
-searchterm = form.getvalue('answerone')
+answerone = form.getvalue('answerone')
 
-While True:
-x = input('answerone')
-if x != "egg"
-    print("That is incorrect")
-    continue
-else
-    break
+if answerone not in ("egg", "Egg", "EGG"):
+        print("Incorrect")
+else:
+        print("Correct")
+break
 
-print("That is correct")
+
+#while True:
+   # data = input("Please enter your answer for Etgar 1")
+   # if data not in ("egg", "Egg", "EGG"):
+      #  print("Incorrect")
+  #  else:
+      #  print("Correct")
+  #  break
