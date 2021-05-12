@@ -6,7 +6,7 @@ if answerone not in ("egg", "Egg", "EGG"):
         print("Content-type: text/html\n")
         print("<html>")
         print("<body>")
-        print("<h1>Hello %s</h1>" % "World")
+        print("<h1>HelloWorld")
         print("</body>")
         print("</html>")
 else:
