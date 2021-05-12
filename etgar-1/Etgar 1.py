@@ -3,7 +3,12 @@ form = cgi.FieldStorage()
 answerone = form.getvalue('answerone')
 
 if answerone not in ("egg", "Egg", "EGG"):
-        print("Incorrect")
+        print("Content-type: text/html\n")
+        print("<html>")
+        print("<body>")
+        print("<h1>Hello %s</h1>" % "World")
+        print("</body>")
+        print("</html>")
 else:
         print("Correct")
 break
